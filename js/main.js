@@ -13,7 +13,7 @@ const flowersSlider = new Swiper(".flowers-slider", {
 
 const reviewsSlider = new Swiper(".reviews-slider", {
   loop: true,
-  slidesPerView: 6,
+  slidesPerView: 1,
 
   navigation: {
     nextEl: ".swiper-button-next",
