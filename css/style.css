@@ -415,6 +415,25 @@ body {
   color: #292929;
 }
 
+.modal {
+  display: none;
+}
+
+.modal-title {
+  color: #292929;
+  padding-bottom: 20px;
+}
+
+.modal-input {
+  display: block;
+  width: 100%;
+  font-size: 18px;
+}
+
+.modal-button {
+  width: 100%;
+}
+
 @media (max-width: 768px) {
   .header {
     text-align: center;
@@ -450,9 +469,8 @@ body {
   }
 }
 
-@media (max-width:576px) {
+@media (max-width: 576px) {
   .footer-info {
     text-align: left;
   }
-  
 }
