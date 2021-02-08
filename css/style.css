@@ -48,6 +48,10 @@ body {
   min-height: 39px;
 }
 
+.header-contacts {
+  text-align: right;
+}
+
 .header-phone {
   display: block;
   font-family: "Gotham Pro Medium";
@@ -55,7 +59,6 @@ body {
   color: #fff;
   text-decoration: none;
   font-size: 20px;
-  text-align: right;
 }
 
 .header-info {
@@ -63,7 +66,6 @@ body {
   font-size: 12px;
   font-weight: 400;
   margin-top: 7px;
-  text-align: right;
 }
 
 .callback {
@@ -72,7 +74,6 @@ body {
   font-size: 16px;
   font-weight: 400;
   color: #ff3469;
-  text-align: right;
   margin-top: 16px;
 }
 
@@ -86,16 +87,21 @@ body {
 .hero-title {
   font-family: "Gotham Pro Medium";
   font-size: 34px;
+  margin: auto;
   margin-bottom: 34px;
   text-transform: uppercase;
   letter-spacing: 0.34px;
+  max-width: 652px;
 }
 
 .hero-description {
   font-family: "Gotham Pro Light";
   font-size: 18px;
   line-height: 1.4;
-  margin-bottom: 87px;
+  text-transform: uppercase;
+  letter-spacing: 0.18px;
+  margin: auto;
+  max-width: 590px;
 }
 
 .hero-cta {
@@ -108,8 +114,8 @@ body {
 
 .flowers-slider {
   width: 100%;
-  text-align: center;
   margin-bottom: 83px;
+  margin-top: 87px;
 }
 
 :root {
@@ -125,6 +131,12 @@ body {
   background-color: #ff2e55;
   padding: 30px 65px 26px;
   margin-top: 36px;
+  cursor: pointer;
+  border: none;
+}
+
+.review-slider {
+  margin-top: 100px;
 }
 
 .reviews {
@@ -188,7 +200,7 @@ body {
   text-transform: uppercase;
   text-align: center;
   letter-spacing: 0.3;
-  margin-bottom: 98px;
+  margin-bottom: 100px;
 }
 
 .advantages {
@@ -209,4 +221,256 @@ body {
   line-height: 1.4;
   max-width: 270px;
   margin: auto;
+}
+
+.goods {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.section-description {
+  font-size: 18px;
+  text-align: center;
+}
+
+.card {
+  text-align: center;
+  border: 3px solid #fff;
+  padding: 33px 35px 30px 35px;
+  margin-top: 27px;
+}
+
+.card-titile {
+  margin-top: 23px;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+}
+
+.card-label {
+  font-size: 14px;
+  display: block;
+  margin-bottom: 7px;
+  margin-top: 20px;
+}
+
+.color-label {
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+}
+
+.color-input {
+  opacity: 0;
+  visibility: hidden;
+  position: absolute;
+  z-index: -10;
+}
+
+.color-label.white {
+  background-color: #fff;
+}
+
+.color-label.biege {
+  background-color: #f7b496;
+}
+
+.color-label.pink {
+  background-color: #ed366e;
+}
+
+.color-label.red {
+  background-color: #ff0000;
+}
+
+.color-label.blue {
+  background-color: #12129d;
+}
+
+.counter-input {
+  width: 40px;
+  height: 40px;
+  border: 1px solid #fff;
+  text-align: center;
+  color: #fff;
+  background-color: #292929;
+  margin: 0 15px;
+}
+
+.counter-button {
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+  font-size: 16px;
+  color: #fff;
+  background-color: #292929;
+  border: none;
+}
+
+.card-button {
+  font-size: 14px;
+  width: 100%;
+  padding: 16px 10px 13px 10px;
+}
+
+.more {
+  font-size: 14px;
+  color: #f24841;
+  display: block;
+  text-align: center;
+  margin-top: 39px;
+  padding: 10px;
+}
+
+.more:after {
+  display: inline-block;
+  content: "";
+  width: 10px;
+  height: 4px;
+  background: url("../img/caret.svg") no-repeat center;
+  margin-left: 14px;
+  vertical-align: middle;
+}
+
+.offer {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  background-color: #1a1a1a;
+  text-align: center;
+}
+
+.offer-link {
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #fff;
+  display: block;
+  font-size: 30px;
+  margin-bottom: 65px;
+}
+
+.offer-label {
+  display: block;
+  margin-bottom: 22px;
+  font-size: 14px;
+}
+
+.offer-phone {
+  font-size: 36px;
+  text-decoration: none;
+  color: #fff;
+}
+
+.footer-menu {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  margin-bottom: 33px;
+}
+
+.footer-menu-link {
+  color: #fff;
+  font-size: 18px;
+  text-transform: uppercase;
+}
+
+.footer-menu-item {
+  margin-right: 30px;
+}
+
+.social {
+  font-size: 16px;
+}
+
+.footer-label {
+  display: block;
+  font-size: 14px;
+  margin-bottom: 12px;
+}
+
+.footer-info {
+  text-align: right;
+}
+
+.footer-phone {
+  text-decoration: none;
+  color: #fff;
+  display: block;
+  font-size: 24px;
+  margin-bottom: 12px;
+}
+
+.footer-bottom {
+  background-color: #fff;
+}
+
+.footer-description {
+  color: #292929;
+}
+
+.footer-bottom-content {
+  min-height: 140px;
+  align-items: center;
+}
+
+.footer-callback {
+  color: #292929;
+}
+
+.modal {
+  display: none;
+}
+
+.modal-title {
+  color: #292929;
+  padding-bottom: 20px;
+}
+
+.modal-input {
+  display: block;
+  width: 100%;
+  font-size: 18px;
+}
+
+.modal-button {
+  width: 100%;
+}
+
+@media (max-width: 768px) {
+  .header {
+    text-align: center;
+  }
+  .header-contacts {
+    text-align: center;
+  }
+  .hero {
+    padding-top: 50px;
+  }
+  .hero-title {
+    font-size: 24px;
+    margin-bottom: 20px;
+    line-height: 1.6;
+  }
+  .hero-description {
+    font-size: 16px;
+    line-height: 1.6;
+  }
+  .button {
+    padding: 20px 40px;
+  }
+
+  .colors {
+    max-width: 200px;
+    margin: auto;
+  }
+  .card-label {
+    margin: 20px auto;
+  }
+  .footer-info {
+    text-align: left;
+  }
+}
+
+@media (max-width: 576px) {
+  .footer-info {
+    text-align: left;
+  }
 }
